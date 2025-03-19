@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+body{
+    margin:0;
+}
+h1{
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 56px;
+    color: #000000;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    height: max-content;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.menu{
+    text-decoration: none; 
+    color: #000000;
+    font-size: 18px;
+}
+.menu:active{
+    text-decoration:underline;
+    color: #616161;
+    font-size: 18px;
+}
+
+main{
+    background-image: url('images/tile_background\ \(2\).png');
+    
+}
+p{
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight:600;
+    
+}
+.cart{
+    width: 215px;
+    height: 320px;
+    margin: 30px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+}
+footer{
+    background-color: #082C3B; 
+    padding: 10px;
+    color:white; 
+    font-size: 11px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.flex{
+    text-decoration: none; 
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    width:50%;
+    margin:0,5%;
+    font-size: 18px;
+}
+a{
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    text-decoration: none; 
+    font-size: 14px;
+}
+.textH1{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center;
+    color: black;
+    margin-bottom: 0;
+}
+  
+.textBlock{ 
+    width: 40%; 
+    text-align: center; 
+    margin: 20px auto 30px; 
+}
+.blackLine { 
+    display: block;
+    width: 120px;
+    height: 1px;
+    background-color: black;
+    margin: 30px auto 0px;
+}
+.textone{
+    flex-direction: column;
+}
+.stat1{
+    display: flex;
+    flex-direction: row;
+}
+.stat2{
+    display: flex;
+    flex-direction: row;
+}
+#Vector{
+    width: 23px;
+    height: 25px;
+}
+.novosti{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.dalee{
+    font-family: 'Ubuntu', sans-serif;
+    color: rgba(153, 101, 135, 0.973); 
+    font-size: 14px;
+    text-decoration:underline;
+}
+.poster{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.stroka1{
+    display: flex;
+    justify-content: space-around;
+}
+.stroka2{
+    display: flex;
+    justify-content: space-around;
+}
+.ivan{
+    margin-left: 50px;
+    margin-bottom: 0;
+}
+.obrachenie{
+    margin-top: 30px;
+    padding: 5px;
+}
+.izdatelstvo{
+    padding: 200px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI2RkakpdBZdyLefrzAfuPJvuqp-9qW-Jymg&usqp=CAU');
+    background-size: 1400px 880px;
+}
+.izdatelstvo2{
+    padding: 200px;
+}
+.textBlock2{
+    width: 40%; 
+    text-align: center; 
+    margin: 20px auto 30px;
+    padding-top:20px;
+}
